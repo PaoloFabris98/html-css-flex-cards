@@ -1,10 +1,56 @@
 body{
     width: 100%;
-    background-color: white;
-    font-family: 'Fredoka', sans-serif;
-    display: flex;
 }
 
 .h{
+    margin-top: 15px;
+    color: rgb(226, 43, 89);
+}
+.d1{
+    width: 80%;
+    margin-left: 10%;
+    background-color: white;
+    font-family: 'Fredoka', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.d2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
     
+}
+.coll{
+    width: calc(100% / 3 - 20px);
+    background-color: black;
+    color: white;
+    margin: 10px;
+    display: flex;
+}
+img{
+    display: flex;
+    width: calc(100% / 3);
+}
+.txt{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+    font-size: 12px;
+}
+.job{
+    margin-top: 5px;
+
+}
+.email{
+    margin-top: 5px;
+    color: aqua;
 }
