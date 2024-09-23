@@ -1,12 +1,7 @@
 body{
     width: 100%;
 }
-
-.h{
-    margin-top: 15px;
-    color: rgb(226, 43, 89);
-}
-.d1{
+main{
     width: 80%;
     margin-left: 10%;
     background-color: white;
@@ -15,13 +10,18 @@ body{
     flex-direction: column;
     align-items: center;
 }
-.d2{
+.title{
+    margin-top: 15px;
+    color: rgb(226, 43, 89);
+}
+
+.FirstParagraph{
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
 }
 .container{
-    width: 800px;
+    width: 80%;
     margin: 0 auto;
 }
 .row{
@@ -39,17 +39,17 @@ body{
 }
 img{
     display: flex;
-    width: calc(100% / 3);
+    width: 90px;
 }
 .txt{
     margin-top: 10px;
     margin-left: 10px;
     color: white;
     font-size: 12px;
+    align-items: center;
 }
 .job{
     margin-top: 5px;
-
 }
 .email{
     margin-top: 5px;
